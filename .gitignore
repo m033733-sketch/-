@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Claude Code local config
+.claude/
+
+# Старые файлы от предыдущей задачи (не относятся к сайту)
+findings.md
+gemini.md
+progress.md
+task_plan.md
+tools/
+
+# Логи и временные файлы
+*.log
+*.tmp

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дача у Мильтюша — Аренда домиков в Бурмистрово</title>
+  <meta name="description" content="Уютные домики у реки Мильтюш в деревне Бурмистрово. 2 домика по 6 человек, баня, мангал, беседка. Аренда от 6 000 ₽/сутки.">
+  <meta property="og:title" content="Дача у Мильтюша — Аренда домиков в Бурмистрово">
+  <meta property="og:description" content="Отдых на природе у реки Мильтюш. 2 домика, баня, 60 соток.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/exterior.jpg">
+  <meta name="theme-color" content="#0a1410">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="css/style.css?v=4">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#" class="nav-logo">Дача у <span>Мильтюша</span></a>
+    <ul class="nav-links">
+      <li><a href="#objects">Домики</a></li>
+      <li><a href="#territory">Территория</a></li>
+      <li><a href="#gallery">Галерея</a></li>
+      <li><a href="#pricing">Цены</a></li>
+      <li><a href="#contacts">Контакты</a></li>
+    </ul>
+    <a href="#booking" class="btn btn-primary nav-cta">Забронировать</a>
+    <button class="nav-burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="mobileClose">✕</button>
+  <a href="#objects" class="mobile-link">Домики</a>
+  <a href="#territory" class="mobile-link">Территория</a>
+  <a href="#gallery" class="mobile-link">Галерея</a>
+  <a href="#pricing" class="mobile-link">Цены</a>
+  <a href="#booking" class="mobile-link">Забронировать</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg"></div>
+  <img src="images/exterior.jpg" alt="Дача у Мильтюша" class="hero-img" onerror="this.style.display='none'">
+  <div class="hero-overlay"></div>
+  <div class="container hero-content" data-aos="fade-up">
+    <div class="hero-tag">Деревня Бурмистрово · Новосибирская область · р. Мильтюш</div>
+    <h1>Домик с <em>душой</em><br>в сердце леса</h1>
+    <p class="hero-desc">Два уютных домика на 60 сотках у реки. Баня, мангал, беседка — всё для настоящего отдыха от суеты.</p>
+    <div class="hero-actions">
+      <a href="#booking" class="btn btn-primary">Забронировать ↓</a>
+      <a href="#objects" class="btn btn-outline">Узнать подробнее</a>
+    </div>
+    <!-- TODO: замени @your_channel на реальный Telegram-канал -->
+    <a class="hero-tg" href="https://t.me/your_channel" target="_blank" rel="noopener">
+      <span class="hero-tg-icon">✈️</span>
+      <span>Подписаться на Telegram-канал «Жизнь дачи»</span>
+      <span class="hero-tg-arrow">→</span>
+    </a>
+    <div class="hero-social">
+      <div class="hero-avatars">
+        <div class="hero-avatar-placeholder">А</div>
+        <div class="hero-avatar-placeholder">М</div>
+        <div class="hero-avatar-placeholder">К</div>
+      </div>
+      <div class="hero-social-text">
+        <strong>Уже отдохнули у нас</strong>
+        <span class="hero-stars">★★★★★</span> Отзывы реальных гостей
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    <span>Листать</span>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- OBJECTS -->
+<section class="section" id="objects">
+  <div class="container">
+    <div data-aos="fade-up">
+      <div class="section-label">Объекты</div>
+      <h2 class="section-title">Что сдаётся в аренду</h2>
+      <p class="section-subtitle">Можно снять один домик или всю базу целиком. Баня бронируется отдельно.</p>
+    </div>
+    <div class="objects-grid">
+
+      <!-- Домик 1 -->
+      <div class="object-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="object-card-img">
+          <img src="images/exterior.jpg" alt="Домик 1 — внешний вид">
+        </div>
+        <div class="object-card-body">
+          <div class="object-card-price">6 000 ₽<span>/ сутки</span></div>
+          <h3 class="object-card-title">Домик 1</h3>
+          <p class="object-card-cap">До 6 человек</p>
+          <ul class="amenities-list">
+            <li>Кухня</li><li>Холодильник</li><li>Туалет</li>
+            <li>Микроволновка</li><li>Варочная поверхность</li><li>Посуда</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Домик 2 -->
+      <div class="object-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="object-card-img">
+          <img src="images/bedroom-1.jpg" alt="Домик 2 — спальня">
+        </div>
+        <div class="object-card-body">
+          <div class="object-card-price">6 000 ₽<span>/ сутки</span></div>
+          <h3 class="object-card-title">Домик 2</h3>
+          <p class="object-card-cap">До 6 человек</p>
+          <ul class="amenities-list">
+            <li>Кухня</li><li>Холодильник</li><li>Туалет</li>
+            <li>Микроволновка</li><li>Варочная поверхность</li><li>Посуда</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Баня -->
+      <div class="object-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="object-card-img">
+          <div class="object-card-icon">🛁</div>
+        </div>
+        <div class="object-card-body">
+          <div class="object-card-price">2 000 ₽<span>/ час</span></div>
+          <h3 class="object-card-title">Баня</h3>
+          <p class="object-card-cap">Бронируется отдельно</p>
+          <ul class="amenities-list">
+            <li>Парная</li><li>Предбанник</li><li>Бронирование по часам</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- TERRITORY -->
+<section class="section territory" id="territory">
+  <div class="container">
+    <div class="territory-inner">
+      <div data-aos="fade-right">
+        <div class="section-label">Территория</div>
+        <h2 class="section-title">60 соток у реки</h2>
+        <p class="section-subtitle">Просторная территория в деревне Бурмистрово. Природа, тишина, река Мильтюш в двух минутах ходьбы.</p>
+        <div class="territory-features">
+          <div class="feature-item">
+            <div class="feature-icon">🌊</div>
+            <div><div class="feature-title">Река Мильтюш</div><div class="feature-desc">2 минуты пешком от домиков</div></div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🔥</div>
+            <div><div class="feature-title">Мангал</div><div class="feature-desc">Шашлыки в любое время</div></div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🌿</div>
+            <div><div class="feature-title">Беседка</div><div class="feature-desc">Большой стол, уютное место</div></div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🚗</div>
+            <div><div class="feature-title">Парковка</div><div class="feature-desc">Место для нескольких авто</div></div>
+          </div>
+        </div>
+      </div>
+      <a class="territory-map" data-aos="fade-left"
+         href="https://yandex.ru/maps/?text=Бурмистрово%2C+Новосибирская+область"
+         target="_blank" rel="noopener"
+         aria-label="Открыть Бурмистрово на Яндекс.Картах">
+        <div class="map-overlay">
+          <div class="map-pin">📍</div>
+          <div class="map-place">Деревня Бурмистрово</div>
+          <div class="map-region">Новосибирская область · р. Мильтюш</div>
+          <span class="map-cta">Открыть на Яндекс.Картах →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PARTNERS -->
+<!-- TODO: замени плейсхолдеры (имя, услуга, цена, контакт) на реальные данные когда соберёшь -->
+<section class="section partners" id="partners">
+  <div class="container">
+    <div data-aos="fade-up">
+      <div class="section-label">Соседи и партнёры</div>
+      <h2 class="section-title">Не только домик — целая экосистема</h2>
+      <p class="section-subtitle">Местные мастера, которые помогают сделать отдых проще: готовая баня к приезду, домашняя еда, рыбалка, прокат. Закажите вместе с бронью или прямо во время отдыха.</p>
+    </div>
+    <div class="partners-grid">
+      <div class="partner-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="partner-avatar">🔥</div>
+        <div class="partner-name">Банщик Иван</div>
+        <div class="partner-service">Топит баню к вашему приезду, веники с собой</div>
+        <div class="partner-price">от 1 500 ₽</div>
+        <div class="partner-note">Контакт уточним при бронировании</div>
+      </div>
+      <div class="partner-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="partner-avatar">🍳</div>
+        <div class="partner-name">Маша · домашняя кухня</div>
+        <div class="partner-service">Завтраки, шашлычные сеты, пироги — доставка к домику</div>
+        <div class="partner-price">от 800 ₽</div>
+        <div class="partner-note">Контакт уточним при бронировании</div>
+      </div>
+      <div class="partner-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="partner-avatar">🎣</div>
+        <div class="partner-name">Сергей · река Мильтюш</div>
+        <div class="partner-service">Сопровождение на реку, лодка и снасти, утренняя рыбалка</div>
+        <div class="partner-price">от 2 000 ₽/час</div>
+        <div class="partner-note">Контакт уточним при бронировании</div>
+      </div>
+      <div class="partner-card partner-card-soon" data-aos="fade-up" data-aos-delay="400">
+        <div class="partner-avatar">＋</div>
+        <div class="partner-name">Скоро добавим</div>
+        <div class="partner-service">Фотограф, массажист, прокат велосипедов, доставка дров</div>
+        <div class="partner-price">Собираем список</div>
+        <div class="partner-note">Подпишитесь на Telegram — расскажем</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- GALLERY -->
+<section class="section" id="gallery">
+  <div class="container">
+    <div data-aos="fade-up">
+      <div class="section-label">Галерея</div>
+      <h2 class="section-title">Фотографии</h2>
+      <p class="section-subtitle">Домики, кухня, спальни, территория — кликните на фото, чтобы открыть в полном размере.</p>
+    </div>
+    <div class="gallery-grid">
+      <a href="images/exterior.jpg" class="gallery-item glightbox" data-gallery="dachaGallery">
+        <img src="images/exterior.jpg" alt="Домик снаружи" loading="lazy">
+        <div class="gallery-overlay"><svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+      </a>
+      <a href="images/kitchen-1.jpg" class="gallery-item glightbox" data-gallery="dachaGallery">
+        <img src="images/kitchen-1.jpg" alt="Кухня и обеденная зона" loading="lazy">
+        <div class="gallery-overlay"><svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+      </a>
+      <a href="images/bedroom-1.jpg" class="gallery-item glightbox" data-gallery="dachaGallery">
+        <img src="images/bedroom-1.jpg" alt="Спальня с большой кроватью" loading="lazy">
+        <div class="gallery-overlay"><svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+      </a>
+      <a href="images/kitchen-2.jpg" class="gallery-item glightbox" data-gallery="dachaGallery">
+        <img src="images/kitchen-2.jpg" alt="Кухня — холодильник и рабочая зона" loading="lazy">
+        <div class="gallery-overlay"><svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+      </a>
+      <a href="images/dining.jpg" class="gallery-item glightbox" data-gallery="dachaGallery">
+        <img src="images/dining.jpg" alt="Обеденный стол" loading="lazy">
+        <div class="gallery-overlay"><svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+      </a>
+      <a href="images/bedroom-2.jpg" class="gallery-item glightbox" data-gallery="dachaGallery">
+        <img src="images/bedroom-2.jpg" alt="Спальня — вид на окно и лес" loading="lazy">
+        <div class="gallery-overlay"><svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+      </a>
+      <a href="images/bedroom-3.jpg" class="gallery-item glightbox" data-gallery="dachaGallery">
+        <img src="images/bedroom-3.jpg" alt="Спальня — общий вид" loading="lazy">
+        <div class="gallery-overlay"><svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PRICING -->
+<section class="section" id="pricing">
+  <div class="container">
+    <div data-aos="fade-up">
+      <div class="section-label">Цены</div>
+      <h2 class="section-title">Тарифы</h2>
+      <p class="section-subtitle">Прозрачные цены без скрытых доплат. Стоимость — за сутки.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="pricing-card" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="pricing-title">Домик 1</h3>
+        <p class="pricing-desc">Один домик на вашу компанию</p>
+        <div class="pricing-price">6 000 <sub>₽/сутки</sub></div>
+        <ul class="pricing-includes">
+          <li>До 6 гостей</li>
+          <li>Кухня, холодильник, посуда</li>
+          <li>Микроволновка, варочная поверхность</li>
+          <li>Туалет</li>
+          <li>Мангал и беседка</li>
+        </ul>
+      </div>
+      <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="200">
+        <div class="pricing-featured-badge">⭐ Популярный</div>
+        <h3 class="pricing-title">Оба домика</h3>
+        <p class="pricing-desc">Вся база в ваше распоряжение</p>
+        <div class="pricing-price">12 000 <sub>₽/сутки</sub></div>
+        <ul class="pricing-includes">
+          <li>До 12 гостей</li>
+          <li>Домик 1 + Домик 2</li>
+          <li>Вся территория 60 соток</li>
+          <li>Мангал и беседка</li>
+          <li>Парковка</li>
+        </ul>
+      </div>
+      <div class="pricing-card" data-aos="fade-up" data-aos-delay="300">
+        <h3 class="pricing-title">Баня</h3>
+        <p class="pricing-desc">Бронируется отдельно к домику</p>
+        <div class="pricing-price">2 000 <sub>₽/час</sub></div>
+        <ul class="pricing-includes">
+          <li>Оплата почасово</li>
+          <li>Минимум 2 часа</li>
+          <li>Указывается при бронировании</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- BOOKING -->
+<section class="section booking" id="booking">
+  <div class="container">
+    <div class="booking-inner">
+      <div class="booking-info" data-aos="fade-right">
+        <div class="section-label">Бронирование</div>
+        <h2 class="section-title">Оставьте заявку</h2>
+        <p>Заполните форму — мы свяжемся с вами в течение часа для подтверждения и ответим на все вопросы.</p>
+        <p>Оплата при заезде наличными или онлайн картой после подтверждения.</p>
+        <div class="booking-contacts">
+          <a href="tel:+7XXXXXXXXXX">📞 +7 (XXX) XXX-XX-XX</a>
+          <a href="https://wa.me/7XXXXXXXXXX">💬 WhatsApp</a>
+          <a href="mailto:m0337@mail.ru">✉️ m0337@mail.ru</a>
+        </div>
+      </div>
+
+      <div data-aos="fade-left">
+        <form class="form" id="bookingForm"
+          action="https://formsubmit.co/m0337@mail.ru"
+          method="POST">
+
+          <!-- FormSubmit settings -->
+          <input type="hidden" name="_subject" value="Новая заявка — Дача у Мильтюша">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <!-- После публикации сайта замените ниже на полный URL: https://вашдомен/thanks.html -->
+          <input type="hidden" name="_next" value="thanks.html">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="checkin">Дата заезда</label>
+              <input class="form-input" type="text" id="checkin" name="check_in" placeholder="Выберите дату" required readonly>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="checkout">Дата выезда</label>
+              <input class="form-input" type="text" id="checkout" name="check_out" placeholder="Выберите дату" required readonly>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="object">Что арендуете</label>
+              <select class="form-select" id="object" name="object" required>
+                <option value="">— Выберите —</option>
+                <option value="Домик 1">Домик 1</option>
+                <option value="Домик 2">Домик 2</option>
+                <option value="Оба домика">Оба домика</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="guests">Количество гостей</label>
+              <select class="form-select" id="guests" name="guests" required>
+                <option value="">— —</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7-12">7–12 (оба домика)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Баня (2 000 ₽/час)</label>
+            <div class="form-radio-group">
+              <label class="form-radio"><input type="radio" name="banya" value="Не нужна"> Не нужна</label>
+              <label class="form-radio"><input type="radio" name="banya" value="2 часа"> 2 часа</label>
+              <label class="form-radio"><input type="radio" name="banya" value="3 часа"> 3 часа</label>
+              <label class="form-radio"><input type="radio" name="banya" value="4 часа"> 4 часа</label>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="name">Ваше имя</label>
+              <input class="form-input" type="text" id="name" name="name" placeholder="Иван" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="phone">Телефон / WhatsApp</label>
+              <input class="form-input" type="tel" id="phone" name="phone" placeholder="+7 (999) 000-00-00" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Способ оплаты</label>
+            <div class="form-radio-group">
+              <label class="form-radio"><input type="radio" name="payment" value="При заезде" checked> Наличными при заезде</label>
+              <label class="form-radio"><input type="radio" name="payment" value="Онлайн картой"> Онлайн картой</label>
+            </div>
+          </div>
+
+          <div class="form-total">
+            <div class="form-total-label">Предварительная стоимость</div>
+            <div class="form-total-amount" id="totalAmount">—</div>
+          </div>
+          <input type="hidden" name="total_amount" id="totalInput">
+
+          <p class="form-legal">
+            Нажимая «Отправить заявку», вы соглашаетесь с
+            <a href="legal/privacy-policy.html" target="_blank">политикой обработки персональных данных</a>
+            и <a href="legal/oferta.html" target="_blank">публичной офертой</a>.
+            Бронирование подтверждается после связи с владельцем.
+          </p>
+          <button type="submit" class="btn btn-primary form-submit" id="submitBtn">Отправить заявку →</button>
+          <button type="button" class="btn-tg-direct" id="tgDirectBtn">
+            <span class="btn-tg-icon">✈️</span>
+            <span>Или отправить напрямую в Telegram</span>
+          </button>
+          <div class="tg-toast" id="tgToast" role="status" aria-live="polite">Текст заявки скопирован — вставьте в чат</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" id="contacts">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo">Дача у <span>Мильтюша</span></div>
+        <p class="footer-desc">Аренда домиков в деревне Бурмистрово, Новосибирская область. Река Мильтюш, природа, тишина.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Навигация</h4>
+        <ul>
+          <li><a href="#objects">Домики</a></li>
+          <li><a href="#territory">Территория</a></li>
+          <li><a href="#pricing">Цены</a></li>
+          <li><a href="#booking">Забронировать</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Документы</h4>
+        <ul>
+          <li><a href="legal/privacy-policy.html">Политика конфиденциальности</a></li>
+          <li><a href="legal/oferta.html">Публичная оферта</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Контакты</h4>
+        <ul>
+          <li><a href="tel:+7XXXXXXXXXX">📞 +7 (XXX) XXX-XX-XX</a></li>
+          <li><a href="https://wa.me/7XXXXXXXXXX">💬 WhatsApp</a></li>
+          <!-- TODO: замени @your_telegram на реальный ник для личных сообщений -->
+          <li><a href="https://t.me/your_telegram">✈️ Telegram</a></li>
+          <!-- TODO: замени @your_channel на канал -->
+          <li><a href="https://t.me/your_channel">📢 Telegram-канал</a></li>
+          <li><a href="mailto:m0337@mail.ru">✉️ m0337@mail.ru</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2024 Дача у Мильтюша. Все права защищены.</span>
+      <span>д. Бурмистрово, Новосибирская область</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://npmcdn.com/flatpickr/dist/l10n/ru.js"></script>
+<!-- STICKY CTA -->
+<a href="#booking" class="sticky-cta" id="stickyCta" aria-label="Забронировать">
+  <span class="sticky-cta-text">Забронировать</span>
+  <span class="sticky-cta-arrow">→</span>
+</a>
+
+<!-- AI CONCIERGE -->
+<button class="concierge-launcher" id="conciergeLauncher" aria-label="Открыть чат с консьержем">
+  <span class="concierge-launcher-icon">💬</span>
+  <span class="concierge-launcher-pulse"></span>
+</button>
+
+<div class="concierge-panel" id="conciergePanel" role="dialog" aria-hidden="true" aria-label="Чат с консьержем">
+  <div class="concierge-header">
+    <div class="concierge-avatar">🌿</div>
+    <div class="concierge-meta">
+      <div class="concierge-name">Консьерж дачи</div>
+      <div class="concierge-status"><span class="concierge-dot"></span> Отвечает в течение минуты</div>
+    </div>
+    <button class="concierge-close" id="conciergeClose" aria-label="Закрыть чат">✕</button>
+  </div>
+  <div class="concierge-body" id="conciergeBody"></div>
+  <div class="concierge-quick" id="conciergeQuick"></div>
+  <form class="concierge-form" id="conciergeForm">
+    <input type="text" class="concierge-input" id="conciergeInput" placeholder="Спросите что угодно…" autocomplete="off">
+    <button type="submit" class="concierge-send" aria-label="Отправить">↑</button>
+  </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script src="js/main.js?v=3"></script>
+</body>
+</html>
