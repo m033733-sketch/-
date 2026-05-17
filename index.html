@@ -11,7 +11,7 @@
   <meta property="og:image" content="images/exterior.jpg">
   <meta name="theme-color" content="#0a1410">
   <meta name="format-detection" content="telephone=no">
-  <link rel="stylesheet" href="css/style.css?v=4">
+  <link rel="stylesheet" href="css/style.css?v=5">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 </head>
@@ -23,6 +23,7 @@
     <a href="#" class="nav-logo">Дача у <span>Мильтюша</span></a>
     <ul class="nav-links">
       <li><a href="#objects">Домики</a></li>
+      <li><a href="#aframe">A-фрейм</a></li>
       <li><a href="#territory">Территория</a></li>
       <li><a href="#gallery">Галерея</a></li>
       <li><a href="#pricing">Цены</a></li>
@@ -39,6 +40,7 @@
 <div class="mobile-menu" id="mobileMenu">
   <button class="mobile-close" id="mobileClose">✕</button>
   <a href="#objects" class="mobile-link">Домики</a>
+  <a href="#aframe" class="mobile-link">A-фрейм</a>
   <a href="#territory" class="mobile-link">Территория</a>
   <a href="#gallery" class="mobile-link">Галерея</a>
   <a href="#pricing" class="mobile-link">Цены</a>
@@ -142,6 +144,45 @@
         </div>
       </div>
 
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- A-FRAME / EVENTS -->
+<section class="section aframe" id="aframe">
+  <div class="container">
+    <div class="aframe-inner">
+      <div data-aos="fade-right">
+        <div class="section-label">Зал A-фрейм</div>
+        <h2 class="section-title">Большие праздники под куполом</h2>
+        <p class="aframe-desc">Просторный купольный зал A-frame на территории — для свадеб, корпоративов, дней рождений и дискотек. Высокие потолки, дискошар, банкетная мебель, отдельный танцпол. Снаружи — open-air площадка с шатром и альтанка для церемоний.</p>
+        <div class="aframe-features">
+          <div class="aframe-feature"><span class="aframe-icon">💍</span><span>Свадьбы и церемонии</span></div>
+          <div class="aframe-feature"><span class="aframe-icon">🎉</span><span>Корпоративы и дни рождения</span></div>
+          <div class="aframe-feature"><span class="aframe-icon">🪩</span><span>Дискошар и танцпол</span></div>
+          <div class="aframe-feature"><span class="aframe-icon">🍽️</span><span>Банкетная мебель с чехлами</span></div>
+          <div class="aframe-feature"><span class="aframe-icon">⛺</span><span>Open-air зона с шатром</span></div>
+          <div class="aframe-feature"><span class="aframe-icon">🌸</span><span>Альтанка для выездной росписи</span></div>
+        </div>
+        <a href="#booking" class="btn btn-primary aframe-cta">Узнать стоимость и забронировать</a>
+        <p class="aframe-note">Цена зависит от формата и количества гостей — обсудим индивидуально.</p>
+      </div>
+      <div class="aframe-gallery" data-aos="fade-left">
+        <a href="images/aframe-hall.jpg" class="aframe-photo aframe-photo-main glightbox" data-gallery="aframeGallery">
+          <img src="images/aframe-hall.jpg" alt="A-фрейм — банкетный зал" loading="lazy">
+        </a>
+        <a href="images/aframe-empty.jpg" class="aframe-photo glightbox" data-gallery="aframeGallery">
+          <img src="images/aframe-empty.jpg" alt="A-фрейм — танцпол" loading="lazy">
+        </a>
+        <a href="images/events-outdoor.jpg" class="aframe-photo glightbox" data-gallery="aframeGallery">
+          <img src="images/events-outdoor.jpg" alt="Open-air площадка вечером" loading="lazy">
+        </a>
+        <a href="images/events-altana.jpg" class="aframe-photo glightbox" data-gallery="aframeGallery">
+          <img src="images/events-altana.jpg" alt="Альтанка для церемоний" loading="lazy">
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -291,6 +332,22 @@
       </a>
       <a href="images/banya-veranda.jpg" class="gallery-item glightbox" data-gallery="dachaGallery">
         <img src="images/banya-veranda.jpg" alt="Баня — веранда с видом на лес" loading="lazy">
+        <div class="gallery-overlay"><svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+      </a>
+      <a href="images/aframe-hall.jpg" class="gallery-item glightbox" data-gallery="dachaGallery">
+        <img src="images/aframe-hall.jpg" alt="A-фрейм — банкетный зал" loading="lazy">
+        <div class="gallery-overlay"><svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+      </a>
+      <a href="images/aframe-empty.jpg" class="gallery-item glightbox" data-gallery="dachaGallery">
+        <img src="images/aframe-empty.jpg" alt="A-фрейм — танцпол" loading="lazy">
+        <div class="gallery-overlay"><svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+      </a>
+      <a href="images/events-outdoor.jpg" class="gallery-item glightbox" data-gallery="dachaGallery">
+        <img src="images/events-outdoor.jpg" alt="Open-air вечеринка под шатром" loading="lazy">
+        <div class="gallery-overlay"><svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
+      </a>
+      <a href="images/events-altana.jpg" class="gallery-item glightbox" data-gallery="dachaGallery">
+        <img src="images/events-altana.jpg" alt="Альтанка для церемоний" loading="lazy">
         <div class="gallery-overlay"><svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
       </a>
     </div>

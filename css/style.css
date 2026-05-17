@@ -88,6 +88,30 @@ a { color: inherit; text-decoration: none; }
 .amenities-list { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; }
 .amenities-list li { background: rgba(109,184,122,0.08); border: 1px solid var(--border); color: var(--text-muted); padding: 4px 12px; border-radius: 99px; font-size: 12px; }
 
+/* ===== A-FRAME / EVENTS ===== */
+.aframe { background: linear-gradient(180deg, var(--bg) 0%, #0c1a13 100%); }
+.aframe-inner { display: grid; grid-template-columns: 1fr 1.1fr; gap: 80px; align-items: center; }
+.aframe-desc { font-size: 1.05rem; color: var(--text-muted); line-height: 1.75; margin: 20px 0 32px; max-width: 540px; }
+.aframe-features { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 20px; margin-bottom: 32px; }
+.aframe-feature { display: flex; align-items: center; gap: 10px; font-size: 14px; color: var(--text); }
+.aframe-icon { width: 36px; height: 36px; border-radius: 50%; background: rgba(212,168,83,0.1); border: 1px solid rgba(212,168,83,0.25); display: inline-flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0; }
+.aframe-cta { margin-top: 4px; }
+.aframe-note { font-size: 13px; color: var(--text-muted); margin-top: 14px; font-style: italic; }
+.aframe-gallery { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 240px 180px; gap: 14px; }
+.aframe-photo { position: relative; overflow: hidden; border-radius: var(--radius); border: 1px solid var(--border); cursor: pointer; }
+.aframe-photo img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s; }
+.aframe-photo:hover img { transform: scale(1.06); }
+.aframe-photo-main { grid-column: 1 / 3; grid-row: 1 / 2; }
+@media (max-width: 900px) {
+  .aframe-inner { grid-template-columns: 1fr; gap: 48px; }
+  .aframe-gallery { grid-template-rows: 220px 160px; }
+}
+@media (max-width: 600px) {
+  .aframe-features { grid-template-columns: 1fr; }
+  .aframe-gallery { grid-template-columns: 1fr; grid-template-rows: repeat(4, 180px); }
+  .aframe-photo-main { grid-column: 1; grid-row: auto; }
+}
+
 /* ===== TERRITORY ===== */
 .territory { background: var(--bg-card); }
 .territory-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
